@@ -15,6 +15,7 @@ The firmware for controlling and communicating with Arduino and between the KegB
 
 You may put external libraries in the /lib folder
 
+```
 |--lib
 |  |--Bar
 |  |  |--docs
@@ -25,3 +26,4 @@ You may put external libraries in the /lib folder
 |  |--Foo
 |  |  |- Foo.c
 |  |  |- Foo.h
+```
