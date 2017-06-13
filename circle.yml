@@ -1,8 +1,6 @@
 dependencies:
-    pre:
-        # Install the latest stable PlatformIO
-        - sudo pip install -U platformio
-
+  pre:
+    - sudo pip install -U platformio
 test:
-    override:
-        - platformio ci src/Temperature.ino --board=<sparkfun_redboard>
+  override:
+    - platformio ci src/Temperature.ino --board=<sparkfun_redboard>
