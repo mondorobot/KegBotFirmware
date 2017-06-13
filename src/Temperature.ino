@@ -1,5 +1,5 @@
-#include <OneWire.h>            // https://github.com/PaulStoffregen/OneWire
-#include <DallasTemperature.h>  // https://github.com/milesburton/Arduino-Temperature-Control-Library
+#include <OneWire.h>
+#include <DallasTemperature.h>
 
 OneWire oneWire(2);
 DallasTemperature sensors(&oneWire);
