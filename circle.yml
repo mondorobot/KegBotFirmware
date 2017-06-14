@@ -5,4 +5,4 @@ dependencies:
     - platformio lib -g install 54
 test:
   override:
-    - platformio ci ./src/Temperature.ino --board=sparkfun_redboard
+    - platformio ci ./src/Main.ino --board=sparkfun_redboard

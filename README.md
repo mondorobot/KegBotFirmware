@@ -27,3 +27,7 @@ You may put external libraries in the /lib folder
 |  |  |- Foo.c
 |  |  |- Foo.h
 ```
+
+### Resources
+[Sparkfun Redboard layout](https://cdn.sparkfun.com/datasheets/Dev/Arduino/Boards/Redboardv1.pdf)
+[Fritzing Layout Software](http://fritzing.org/home/)
