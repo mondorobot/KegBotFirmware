@@ -4,6 +4,9 @@ dependencies:
     - platformio lib -g install 1
     - platformio lib -g install 54
     - platformio lib -g install 1101
+
+    - wget https://github.com/esp8266/Arduino/archive/master.zip  -O /tmp/esp8266.zip
+    - unzip /tmp/esp8266.zip -d /tmp
 test:
   override:
     - platformio ci ./src/Main.ino --board=sparkfun_redboard
